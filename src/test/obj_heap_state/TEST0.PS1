@@ -39,7 +39,6 @@ Param(
 $Env:UNITTEST_NAME = "obj_heap_state\TEST0"
 $Env:UNITTEST_NUM = "0"
 
-
 # standard unit test setup
 
 . ..\unittest\unittest.ps1

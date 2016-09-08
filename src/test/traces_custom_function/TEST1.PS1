@@ -46,7 +46,6 @@ Param(
 $Env:UNITTEST_NAME = "traces_custom_function\TEST1"
 $Env:UNITTEST_NUM = "1"
 
-
 # standard unit test setup
 . ..\unittest\unittest.ps1
 

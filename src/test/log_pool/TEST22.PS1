@@ -41,7 +41,6 @@ Param(
 $Env:UNITTEST_NAME = "log_pool\TEST22"
 $Env:UNITTEST_NUM = "22"
 
-
 # standard unit test setup
 . ..\unittest\unittest.ps1
 

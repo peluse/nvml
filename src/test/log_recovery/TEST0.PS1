@@ -42,7 +42,6 @@ Param(
 $ENV:UNITTEST_NAME="log_recovery\TEST0"
 $ENV:UNITTEST_NUM="0"
 
-
 # standard unit test setup
 . ..\unittest\unittest.ps1
 

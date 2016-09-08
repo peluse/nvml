@@ -40,7 +40,6 @@ Param(
     )
 $Env:UNITTEST_NAME = "win_getopt/TEST0"
 $Env:UNITTEST_NUM = "0"
-
 $ERR="stderr$Env:UNITTEST_NUM.log"
 
 . ../unittest/unittest.ps1

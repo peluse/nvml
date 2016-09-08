@@ -43,7 +43,6 @@ Param(
 $Env:UNITTEST_NAME = "util_poolset_size\TEST0w"
 $Env:UNITTEST_NUM = "0w"
 
-
 # standard unit test setup
 . ..\unittest\unittest.ps1
 

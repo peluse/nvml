@@ -52,7 +52,6 @@ Param(
 $Env:UNITTEST_NAME = "log_basic\TEST1"
 $Env:UNITTEST_NUM = "1"
 
-
 # standard unit test setup
 . ..\unittest\unittest.ps1
 

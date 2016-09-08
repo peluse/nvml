@@ -39,7 +39,6 @@ Param(
 $Env:UNITTEST_NAME = "obj_many_size_allocs\TEST2"
 $Env:UNITTEST_NUM = "2"
 
-
 # standard unit test setup
 
 . ..\unittest\unittest.ps1

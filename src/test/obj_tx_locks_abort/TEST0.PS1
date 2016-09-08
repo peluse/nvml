@@ -43,9 +43,6 @@ $ENV:UNITTEST_NAME = "obj_tx_locks_abort\TEST0"
 $ENV:UNITTEST_NUM = "0"
 
 
-$ENV:PMEM_IS_PMEM = $true
-$ENV:NON_PMEM_IS_PMEM = $true
-
 # standard unit test setup
 . ..\unittest\unittest.ps1
 

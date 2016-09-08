@@ -40,7 +40,6 @@ Param(
 $Env:UNITTEST_NAME = "pmempool_check\TEST1"
 $Env:UNITTEST_NUM = "1"
 
-
 . ..\unittest\unittest.ps1
 
 require_fs_type any

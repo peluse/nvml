@@ -38,7 +38,6 @@ Param(
 $Env:UNITTEST_NAME = "obj_out_of_memory\TEST1"
 $Env:UNITTEST_NUM = "1"
 
-
 # standard unit test setup
 . ..\unittest\unittest.ps1
 

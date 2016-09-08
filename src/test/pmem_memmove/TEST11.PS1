@@ -45,7 +45,6 @@ Param(
 $Env:UNITTEST_NAME = "pmem_memmove\TEST11"
 $Env:UNITTEST_NUM = "11"
 
-
 # standard unit test setup
 . ..\unittest\unittest.ps1
 

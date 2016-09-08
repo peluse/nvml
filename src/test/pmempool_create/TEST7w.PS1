@@ -40,7 +40,6 @@ Param(
 $Env:UNITTEST_NAME = "pmempool_create\TEST7w"
 $Env:UNITTEST_NUM = "7w"
 
-
 . ..\unittest\unittest.ps1
 
 # XXX: missing valgrind equivalent

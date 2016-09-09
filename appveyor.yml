@@ -20,6 +20,8 @@ test_script:
 - ps: >-
     if ($env:CONFIGURATION -eq "Debug") {
         #8
+	md /temp
+	dir /temp
         cd src/test
         echo "`$env:NON_PMEM_FS_DIR = `"\temp`"" > testconfig.ps1
         echo "`$env:PMEM_FS_DIR = `"\temp`"" >> testconfig.ps1

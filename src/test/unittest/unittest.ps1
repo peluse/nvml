@@ -1015,7 +1015,7 @@ if ($DIR) {
     } # switch
 }
 
-Write-Host "About to Echk..."
+Write-Host "About to Echgk..."
 Get-ChildItem Env:
 if (isDir($Env:PMEM_FS_DIR)) {
     if ($Env:PMEM_FS_DIR_FORCE_PMEM -eq "1") {

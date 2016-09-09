@@ -1016,7 +1016,9 @@ if ($DIR) {
 }
 
 Write-Host "About to Check..."
-Get-ChildItem Env:
+Write-Host "FSDIR $Env:PMEM_FS_DIR"
+Write-Host "FORCE $Env:PMEM_FS_DIR_FORCE_PMEM"
+
 if (isDir($Env:PMEM_FS_DIR)) {
     if ($Env:PMEM_FS_DIR_FORCE_PMEM -eq "1") {
         # "0" means there is PMEM

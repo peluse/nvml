@@ -242,7 +242,7 @@ function require_pmem {
     if ($PMEM_IS_PMEM -eq "0") {
         return $true
     } Else {
-        Write-Error "error: PMEM_FS_DIR=$Env:PMEM_FS_DIR does not point to a PMEM device"
+        Write-Error "error: PMEM_FS_DIR = $Env:PMEM_FS_DIR does not point to a PMEM device"
         exit 1
     }
 }
@@ -1015,6 +1015,8 @@ if ($DIR) {
     } # switch
 }
 
+Write-Host "About to Echk..."
+Get-ChildItem Env:
 if (isDir($Env:PMEM_FS_DIR)) {
     if ($Env:PMEM_FS_DIR_FORCE_PMEM -eq "1") {
         # "0" means there is PMEM
